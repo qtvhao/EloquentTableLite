@@ -1,0 +1,22 @@
+{
+  "name": "haonx/table",
+  "description": "TableTrait for Eloquent, original version by EloquentTable",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "haonx",
+      "email": "qtvhao@gmail.copm"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "vendor/"
+    }
+  },
+  "require": {
+    "illuminate/database": "v5.3.23",
+    "stevebauman/eloquenttable": "v1.1.6",
+    "fzaninotto/faker": "v1.6.0"
+  }
+}
